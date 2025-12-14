@@ -1,0 +1,8 @@
+@import "tailwindcss";
+body{
+    background-color: rgb(64, 172, 214);
+}
+
+.avatar{
+    border-radius: 50%;
+}
