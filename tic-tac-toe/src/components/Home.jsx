@@ -1,13 +1,11 @@
-import React from 'react'
-import Square from './Square'
-import Board from './Board'
+import Game from './Game'
 
 function Home() {
   return (
     <div>
       <div className=" bg-lime-500 h-screen w-screen place-items-center place-content-center">
-        <div className=" bg-amber-500 ">
-            <Board/>
+        <div className=" ">
+            <Game/>
         </div>
       </div>
     </div>

@@ -1,14 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Square({value}) {
-    function handleClick(){
-        console.log('clicked')
-    }
+function Square({value, onSquareClick}) {
   return (
     <div>
       <button 
-        className="square text-7xl border px-4 py-1 "
-        onClick={handleClick}
+        className="square text-7xl border h-20 w-20"
+        onClick={onSquareClick}
         >
             {value}
         </button>
